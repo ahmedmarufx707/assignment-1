@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header & navigation styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 216px 230px;
+}
+.nav-title{
+    font-weight: 700;
+    font-size: 65px;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+.text-primary{
+    color: #F15B22;
+}
+.btn-primary{
+    height: 64px;
+    background: #F15B22;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+    padding: 20 25;
+    float: right;
+}
+
+/* banner styles */
+.banner{
+    background-image: url("../images/banner/banner1.png");
+    width: 100%;
+    height: 808px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* main section */
+main{
+
+}
+
+/* failures section styles */
+.failure{
+    margin-top: 370px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.failure-title{
+    text-align: left;
+}
+.failure-description{
+    width: 45%;
+}
+
+/* what I do styles */
+.what-i-do{
+    margin-top: 197px;
+}
+.skills-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 170px 20px 40px;
+    gap: 5.9px;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.skill-description{
+    color: #737272;
+}
+
+/* contact styles */
+.contact{
+    display: flex;
+    background-color: black;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-des{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 20%;
+}
+.title-des2{
+    width: 40%;
+    margin: 0% 10% 0% 10%;
+}
+.nav-title{
+    text-align: right;
+}
+.p-des{
+    text-align: right;
+    margin: 20px;
+    width: 80%;
+    padding-left: 120px;
+}
+.failure-des{
+    text-align: left;
+    margin: 10%;
+}
+.my-plans{
+    text-align: center;
+    font-size: 30px;
+}
+.section-title{
+    color: white;
+}
